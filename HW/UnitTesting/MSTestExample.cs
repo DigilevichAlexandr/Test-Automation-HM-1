@@ -10,7 +10,7 @@
 
         [TestMethod]
         [DataSource("System.Data.OleDb",
-            "Provider=Microsoft.Jet.OLEDB.4.0;Data Source='I:\\Мои проекты в ASP.NET\\Epam\\automation testing\\1\\HW\\HW\\TestResults\\TestData.xls';Persist Security Info=False;Extended Properties='Excel 8.0'",
+            "Provider=Microsoft.Jet.OLEDB.4.0;Data Source='F:\\Users\\Александр\\Source\\Repos\\AutomationTesting\\HW\\TestResults\\TestData.xls';Persist Security Info=False;Extended Properties='Excel 8.0'",
             "Sheet1$", DataAccessMethod.Sequential)]
         public void DataSourceTest()
         {
